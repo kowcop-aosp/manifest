@@ -4,9 +4,11 @@
     <remote  name="aosp"
     fetch="https://android-review.googlesource.com/" />
     <remote name="BeerGang"
-    fetch="git://github.com/BeerGang/" />
+    fetch="https://github.com/BeerGang/" />
+    <remote name="kow"
+    fetch="https://github.com/kowcop-aosp/" />
     <remote name="CyanogenMod"
-    fetch="git://github.com/CyanogenMod/" />
+    fetch="https://github.com/CyanogenMod/" />
     <default revision="refs/tags/android-4.4_r1.1"
     remote="aosp"
     sync-j="4" />
@@ -436,8 +438,7 @@
     
     <!--Tmobile Themes-->
     <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CyanogenMod" revision="cm-11.0" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="CyanogenMod" revision="cm-11.0" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="CyanogenMod" revision="cm-11.0" />
+    <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="CyanogenMod" revision="cm-11.0" />
+    <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="CyanogenMod" revision="cm-11.0" />
 
-    
 </manifest>
